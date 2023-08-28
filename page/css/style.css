@@ -78,7 +78,7 @@ main {
     font-size: 30px;
     font-weight: 500;
     text-shadow: #00000079 1px 1px 1px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .main__section__button {
@@ -148,7 +148,7 @@ main {
 }
 
 .main__section--2 {
-    margin: 40px 0px 20px 0px;
+    margin: 35px 0px 20px 0px;
 }
 
 .main__h2 {
@@ -160,7 +160,7 @@ main {
 .main__list {
     list-style: none;
     display: flex;
-    gap: 50px; 
+    gap: 40px; 
     margin: 15px 0px;
 }
 
@@ -218,4 +218,8 @@ main {
 
 .divIcons--subtitle > p {
     color: rgb(204, 204, 204);
+}
+
+.space {
+    margin-right: 8px;
 }
