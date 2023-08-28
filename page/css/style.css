@@ -197,7 +197,7 @@ main {
     justify-content: space-between;
 }
 
-.div--icons > img{
+.div--icons {
     width: 30px;
     background-color: #222222;
     padding: 10px;
@@ -205,21 +205,19 @@ main {
     box-shadow: 5px 0px 10px 0px rgba(0, 0, 0, 0.37);
 }
 
-.div--icons > img:hover{
+.div--icons:hover{
     transform: scale(107%);
 }
 
-.divIcons--subtitle {
+.main__span--icons {
     display: flex;
-    justify-content: space-evenly;
-    font-size: 14px;
-    gap: 18px;
+    flex-direction: column;
+    align-items: center;
 }
 
-.divIcons--subtitle > p {
+.divIcons--subtitle {
     color: rgb(204, 204, 204);
-}
-
-.space {
-    margin-right: 8px;
+    font-size: 14px;
+    font-style: normal;
+    margin-top: 7px
 }
