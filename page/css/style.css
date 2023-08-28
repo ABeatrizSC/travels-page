@@ -1,0 +1,221 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+
+body {
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+main {
+    background-color: #1C1C1C;
+    height: 100vh;
+    width: 100%;
+    border-radius: 45px;
+    display: flex;
+    margin: auto;
+}
+
+.main__container {
+    border: 1px solid rgba(255, 0, 0, 0);
+    width: 100%;
+    border-radius: 35px;
+}
+
+.main__container--1 {
+    background: url("../imagens/Rectangle\ 3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 5px 0px 16px 0px rgba(0, 0, 0, 0.37);
+}
+
+.main__header {
+    display: flex;
+    align-items: center;
+    margin: 20px 0px 0px 60px;
+}
+
+.main__header > h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    margin-left: 5px;
+}
+
+.main__section--1 {
+    height: calc(100% - 150px);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__section--1 > h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.main__section--1 > p {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    text-shadow: #00000079 1px 1px 1px;
+    margin-bottom: 30px;
+}
+
+.main__section__button {
+    background-color: rgba(235, 211, 0, 1);
+    width: 160px;
+    height: 45px;
+    border-radius: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main__section__button:hover {
+    transform: scale(106%);
+}
+
+.main__section__button > p {
+    color: black;
+    font-weight: 700;
+}
+
+.main__section__button > img {
+    width: 30px;
+    height: 30px;
+}
+
+.main__container--2 {
+    margin: 0px 20px;
+}
+
+.main__nav {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 15px 05px 15px;
+}
+
+.main__nav__menu {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.main__nav__menu > a:hover {
+    color: rgba(235, 212, 0, 0.788);
+}
+
+.back--icon {
+    width: 15px;
+    height: 25px;
+}
+
+.search--icon {
+    width: 25px;
+    height: 25px;
+}
+
+.back--icon:hover{
+    transform: scale(107%);
+    cursor: pointer;
+}
+
+.search--icon:hover{
+    transform: scale(107%);
+    cursor: pointer;
+}
+
+.main__section--2 {
+    margin: 40px 0px 20px 0px;
+}
+
+.main__h2 {
+    font-size: 22px;
+    margin: 20px 0px;
+
+}
+
+.main__list {
+    list-style: none;
+    display: flex;
+    gap: 50px; 
+    margin: 15px 0px;
+}
+
+.main__list > li {
+    font-size: 18px;
+}
+
+.main__list > li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: rgba(235, 211, 0, 1);
+}
+
+.main__section--3 {
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+.main__section--3 > img {
+    width: 190px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.main__section--4 {
+    width: 60%;
+    margin-top: 40px;
+}
+
+.main__div--icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.div--icons > img{
+    width: 30px;
+    background-color: #222222;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 5px 0px 10px 0px rgba(0, 0, 0, 0.37);
+}
+
+.div--icons > img:hover{
+    transform: scale(107%);
+}
+
+.divIcons--subtitle {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 14px;
+    gap: 18px;
+}
+
+.divIcons--subtitle > p {
+    color: rgb(204, 204, 204);
+}
