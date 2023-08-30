@@ -194,7 +194,7 @@ main {
 
 .main__div--icons {
     display: flex;
-    justify-content: space-between;
+    gap: 10px;
 }
 
 .div--icons {
